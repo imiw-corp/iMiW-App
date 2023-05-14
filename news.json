@@ -1,14 +1,13 @@
 {
-  "news": [
-    {
-      "date": "01.05.2023",
-      "title": "App start",
-      "version": "0.0.1"
-    },
-    {
-      "date": "03.05.2023",
-      "title": "App continue",
-      "version": "0.0.2"
-    }
-  ]
+	"news": [{
+			"date": "01.05.2023",
+			"title": "App start",
+			"version": "0.0.1"
+		},
+		{
+			"date": "03.05.2023",
+			"title": "App continue",
+			"version": "0.0.2"
+		}
+	]
 }
