@@ -1,0 +1,50 @@
+BoxLayout:
+	orientation: 'vertical'
+	spacing: 20
+	padding: 20
+
+	Image:
+		pos_hint: {'center_x': 0.5, 'y': 1}
+		height: self.width / self.image_ratio * 0.6
+		size_hint: 1, None
+		source: 'img/Personal_logo.png'
+
+	Label:
+		text: "Kharkevich Ivan\niM!W"
+		size: 250, 250
+		size_hint: 1, 1
+		font_size: '28sp'
+		halign: 'center'
+        valign: 'center'
+
+	GridLayout:
+		cols: 2
+		pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+		size_hint: None, None
+		size: 260, self.minimum_height
+		spacing: 20
+
+		Button:
+			text: 'Telegram'
+			size: 120, 120
+			size_hint: None, None
+			background_color: [120/255, 120/255, 120/255, 1]
+		Button:
+			text: 'Discord'
+			size: 120, 120
+			size_hint: None, None
+			background_color: [120/255, 120/255, 120/255, 1]
+		Button:
+			text: 'GitHub'
+			size: 120, 120
+			size_hint: None, None
+			background_color: [120/255, 120/255, 120/255, 1]
+		Button:
+			text: 'Mail'
+			size: 120, 120
+			size_hint: None, None
+			background_color: [120/255, 120/255, 120/255, 1]
+
+	Label:
+	    size_hint: 1, None
+		text: ''
