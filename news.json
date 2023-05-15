@@ -3,12 +3,14 @@
     {
       "date": "01.05.2023",
       "title": "App start",
-      "version": "0.0.1"
+      "version": "0.0.1",
+      "url": "https://github.com/imiw-corp/iMiW-App/blob/main/news.json"
     },
     {
       "date": "03.05.2023",
       "title": "App continue",
-      "version": "0.0.2"
+      "version": "0.0.2",
+      "url": "https://github.com/imiw-corp/iMiW-App/blob/main/news.json"
     }
   ]
 }
